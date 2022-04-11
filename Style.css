@@ -1,0 +1,13 @@
+.logo {
+    height: 80px;
+    margin: 30px;
+}
+
+/* media query */
+
+@media only screen and (max-width: 1000px) {
+    .project-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
