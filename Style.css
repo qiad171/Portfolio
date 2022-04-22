@@ -5,68 +5,198 @@ section {
     color:white
 }
 
-.home {
+ul {
+    list-style: none;
+}
+
+/* home section */
+section.home {
     background-color: black;
     height: 100vh;
     color:white;
     font-size: 30px;
 }
 
-.logo {
-    width: 200px;
-    height: 200px;
+nav.nav {
     display: flex;
-    margin-left: 25px;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
 }
 
-nav {
+ul#navlist {
     display: flex;
-    justify-content: space-between;
-}
-
-ul {
-    display: flex;
-    list-style-type: none;
+    list-style: none;
     width: 50%;
     justify-content: space-around;
     font-size: 25px;
+    margin: 20px;
 }
    
+li a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 20px;
+    transition: all .5s ease;
+}
+
+li a:hover {
+    background-color: white;
+    color: rgb(25, 185, 248);
+    box-shadow:  0 0 10 px lightskyblue;
+}
+
 li {
-       /* width: 200px; */
     justify-content: space-around;
+}
+
+.hr {
+    border-top: 8px solid;
+    border-radius: 5px;
 }
 
 .home-area {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     height: 100%;
+    margin: 20px 20px;
+    padding: 10px 10px
 }
 
+.home__elem {
+    margin: 40px 34px;
+    padding: 5px 5px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.home-img {
+    display: flex;
+}
+
+.home-img__elem {
+    justify-content: center;
+    height: 750px;
+}
+
+
+
+/* about section */
 .about-me {
     background-color: black;
     height: 100vh;
     color:white;
-    
+    display: flex;
+    flex-direction: column;    
 }
 
 .about-heading {
- background-color: black;
+    background-color: black;
+    display: flex;
+    justify-content: center;
 }
 
-.headshot {
-    width: 200px;
-    height: 200px;
-    display: block;
+.about-img {
+    display: flex;
+    justify-content: center;
+}
+
+.about-img__elem {
+    width: 300px;
+    height: 300px;
 
 }
+
+.information {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 30px;
+    padding: 10px 100px;
+}
+
+
+.bucketlist {
+    display: flex;
+    flex-direction: column;
+}
+
+.ul__mod {
+    width: 40%;
+    font-size: 20px;
+    padding: 25px 40px;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    list-style: none;
+    display: flex;
+}
+
+
+
+/* portfolio section */
+
+
+
+
+/* contact me section */
+#contact {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: black;
+    color: beige;
+    padding: 20px
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.input {
+    padding: 15px;
+    margin: 17px;
+    width: 25%;
+    border: none;
+}
+
+#msg {
+    width: 25%;
+    padding: 10px;
+    margin: 10px ;
+    border: none;
+    outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* footer section */
 footer{
     height: 80px;
     background-color: gray;
 }
 
-.bucketlist {
-    display: block;
-    padding: 5px 5px;
+/* responiveness */
 
-}
+
+
+/* Smartphones
+ 640 x 960 pixels
+Tablets
+ 768 x 1024 pixels
+Laptops
+ 1440 x 900 pixels
+Desktops
+ 1920 x 1080 pixels */
