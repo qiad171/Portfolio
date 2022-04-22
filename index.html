@@ -9,7 +9,7 @@
     <!-- home section -->
     <section class="home">
         <!-- navbar -->
-        <nav>
+        <nav class="nav">
             <ul id="navlist">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about-me">About me</a></li>
@@ -31,30 +31,35 @@
 
 <!-- about section -->
     <section class="about-me">
-        <div>
-            <h2 class="about-heading">About Me</h2>
+        <div class="about-heading">
+            <h1>About Me</h1>
         </div>
-        <div>
-            <img class="headshot" src="C:\Users\justi\Desktop\Project directory\img\img7.png" alt="image">
+        <div class="about-img">
+            <img class="about-img__elem" src="C:\Users\justi\Desktop\Project directory\img\img7.png" alt="image">
         </div>
-        <div  class="information">
-            <p>I live in Syndey, which is located on Australia's east coast. this is where I spend the majority of my time working and travelling around the country. I enjoy playing video games and watching movies, as well as going on road trips and discovering new places.     
+
+        <div class="information">
+            <p class="information__elem">I live in Syndey, which is located on Australia's east coast. this is where I spend the majority of my time working and travelling around the country. I enjoy playing video games and watching movies, as well as going on road trips and discovering new places. </p>        
             <br>
-            <div>
-                <p>short term bucket list</p>
-                    <ul id="bucketlist">
-                        <li>Snow trip in Japan</li>
-                        <li>Land a Front End Developer job</li>
-                        <li>Use my long service leave for a bit of traveling around America and Canada</li>
-                        <li>Visit Tasmania</li>
-                    </ul>
+            <div class="bucketlist">
+                <p class="bucketlist-p">Short Term Bucket List</p>
+                    <div class="ul__mod">
+                        <ul>
+                            <li>Snow trip in Japan</li>
+                            <li>Visit Tasmania </li>
+                            <li>Land a Front End Developer job </li>
+                            <li>Use my long service leave for a bit of traveling around America and Canada</li>
+                        </ul>
+                    </div>
             </div>
             <br>
             <br>
-            I want to be a full stack developer and write my own software for real-world applications. I'm also working on achievement apps for PlayStation and Xbox games to help people track and collect their achievements while providing helpful hints and tips.</p>
+            <p>I want to be a full stack developer and write my own software for real-world applications. I'm also working on achievement apps for PlayStation and Xbox games to help people track and collect their achievements while providing helpful hints and tips.</p>
         </div>
 
     </section>
+
+    <!-- portfolio section -->
     <section class="portfolio">
         <h2>Portfolio</h2>
           <div class="portfolio-container">
@@ -73,12 +78,22 @@
                 
               </div>
     </section>
+
+    <!-- contact me section -->
     <section class="contact me">
         <div>
-            <div>
-                <h2>Contact Me</h2>
-                <h4>Email: qiad171@gmail.com</h4>        
+            <div class="contact-me-heading">
+                <h1>Contact Me</h1>
+                <!-- <h4>Email: qiad171@gmail.com</h4>         -->
             </div>
+            <form action="" class="form">
+                <input type="text" name="name" class="input" placeholder="Enter Your Name">
+                <input type="text" name="email" class="input" placeholder="Enter Your Email">
+                <input type="text" name="phone" class="input" placeholder="Enter Your Phone Number">
+                <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
+                <input type="submit" value="SEND" id="send">
+                
+            </form>
             <div class="socials">
                 <div>
                     <ul class=""socials>
@@ -99,6 +114,8 @@
             </div>
         </div>  
     </section>
+
+    <!-- footer -->
     <footer ></footer>
 </body>
 </html>
