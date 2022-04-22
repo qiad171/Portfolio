@@ -1,12 +1,16 @@
 section {
-    height:500px;
+    height:100vh;
     background-color: black;
-    border: solid cyan 1px;
+    border: solid beige 1px;
     color:white
 }
 
 ul {
     list-style: none;
+}
+
+.h1 {
+    font-size: x-large;
 }
 
 /* home section */
@@ -140,15 +144,26 @@ li {
 
 
 /* contact me section */
-#contact {
+.contact {
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
     background-color: black;
     color: beige;
-    padding: 20px
+    padding: 20px;
+    height: 100vh;
 }
 
+.contact-heading {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#contact-heading__mod {
+    justify-content: center;
+    display: flex;
+}
 .form {
     display: flex;
     flex-direction: column;
@@ -158,28 +173,46 @@ li {
 }
 
 .input {
-    padding: 15px;
-    margin: 17px;
+    padding: 6px;
+    margin: 8px;
     width: 25%;
     border: none;
 }
 
 #msg {
-    width: 25%;
+    width: 30%;
     padding: 10px;
     margin: 10px ;
     border: none;
     outline: none;
 }
 
+#send {
+    padding: 10px;
+    width: 10%;
+    margin:10px;
+    border: none;
+    outline: none;
+}
 
+#send:hover {
+    cursor: pointer;
+    background-color: white;
+    color: rgb(25, 185, 248);
+    box-shadow:  0 0 10 px lightskyblue;
+}
 
+.socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 
-
-
-
-
-
+#socials__elem {
+    display: flex;
+    flex-direction: row;
+    padding: 0 ;
+}
 
 
 /* footer section */
