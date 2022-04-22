@@ -2,6 +2,7 @@ section {
     height:500px;
     background-color: black;
     border: solid cyan 1px;
+    color:white
 }
 
 .home {
@@ -11,27 +12,16 @@ section {
     font-size: 30px;
 }
 
-.home-area {
+.logo {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    margin-left: 25px;
+}
+
+nav {
     display: flex;
     justify-content: space-between;
-    height: 100%;
-    
-}
-
-footer{
-    height: 500px;
-    background-color: gray;
-}
-
-.logo {
-    background-image: url(/img/logo.png);
-    display: block;
-    height: 100px;
-    width: 100px;
-}
-nav {
- display: flex;
- justify-content: space-between;
 }
 
 ul {
@@ -41,47 +31,42 @@ ul {
     justify-content: space-around;
     font-size: 25px;
 }
-
+   
 li {
-    /* width: 200px; */
+       /* width: 200px; */
     justify-content: space-around;
 }
 
-:link {
-    color:rgb(0, 255, 255);
+.home-area {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
 }
 
-h1 {
-    font-size: 90px;
-    margin: 0;
+.about-me {
+    background-color: black;
+    height: 100vh;
+    color:white;
+    
 }
 
-p {
-    margin: 0;
+.about-heading {
+ background-color: black;
 }
 
-.intro {
-    margin-left: 50px;
-}
-
-.button {
-    width: 150px;
-    height: 50px;
-    border-radius: 40px;
-    text-align: center;
-    background-color: aqua;
-    font-size: 200;
-    font-weight: 300;
-    padding-top: 5px;
-    margin-top: 20px;
-}
-
-.button:hover {
-    background-color: rgb(166, 255, 255);
-    color: rgb(158, 34, 34);
-}
-
-.logo {
-    height: 200px;
+.headshot {
     width: 200px;
+    height: 200px;
+    display: block;
+
+}
+footer{
+    height: 80px;
+    background-color: gray;
+}
+
+.bucketlist {
+    display: block;
+    padding: 5px 5px;
+
 }
